@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: '伏辰小站'
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+description: '伏辰的个人博客'
+keywords: 'React Python Java'
+author: 'yanan.wya'
+language: 'ch'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wya0556.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,4 +103,5 @@ theme: landscape
 deploy:
   type: 'git'
   repo: 'git@github.com:wya0556/wya0556.github.io.git'
-  branch: 'gh-pages'
+  branch: 'master'
+  message: 'Update Hexo Static Content'
